@@ -1,8 +1,7 @@
 "use strict"
 __appdir     = require('path').join(__dirname, '..')
-__contentdir = "#{__appdir}/content"
 
-markdown     = require('node-markdown').Markdown
+markdown     = require('discount').Markdown
 
 exports.init = (app) =>
 
