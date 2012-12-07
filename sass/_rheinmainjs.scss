@@ -1,0 +1,40 @@
+body {
+  background: url(/images/bgr.png);
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+header h1 a {
+  background: url(/images/logo.png) no-repeat;
+  background-size: 120px;
+  display: block;
+  height: 120px;
+  overflow: hidden;
+  text-indent: -99em;
+  width: 120px;
+}
+
+header h2 {
+  //margin-top: 1.5em;
+}
+
+.label {
+  color: #fdcc00;
+}
+
+footer div {
+  font-size: 14px;
+  text-align: right;
+}
+
+.wiesbaden {
+  display: inline;
+  font-family:"Syncopate",sans-serif;
+  font-weight:400;
+}
+
+.rheinmain {
+  font-weight:700;
+}

@@ -1,0 +1,22 @@
+!!! 5
+html.no-js(lang='de')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title RheinMainJS
+    link(rel='stylesheet', href='stylesheets/app.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Syncopate:400,700')
+    link(type='text/plain', rel='author', href='humans.txt')
+    link(rel='shortcut icon', href='favicon.ico')
+    script(src='javascripts/foundation/modernizr.foundation.js')
+
+  body
+    include includes/header
+
+    block content
+
+    footer.row
+        .four.columns.offset-by-eight Made in&nbsp;
+            .wiesbaden WIESBADEN <span class="rheinmain">RHEIN-MAIN</span>
+
+    script(src='javascripts/foundation/app.js')

@@ -1,0 +1,23 @@
+{
+  "name": "RheinMainJS",
+  "description": "RheinMainJS website",
+  "version": "0.0.1",
+  "author": "Matthias Gutjahr <rheinmainjs@matthias-gutjahr.de>",
+  "contributors": [
+    {
+      "name": "Matthias Gutjahr",
+      "email": "rheinmainjs@matthias-gutjahr.de"
+    }
+  ],
+  "private": true,
+  "main": "app.coffee",
+  "scripts": {
+    "start": "NODE_ENV=production coffee app.coffee"
+  },
+  "dependencies": {
+    "coffee-script": ">= 1.4.0",
+    "express": ">= 3.0.2",
+    "jade": ">= 0.27.7",
+    "node-markdown": ">= 0.1.1"
+  }
+}
