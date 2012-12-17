@@ -15,6 +15,9 @@ exports.about = (req, res) ->
 exports.history = (req, res) ->
   res.render 'history'
 
+exports.wishlist = (req, res) ->
+  res.render 'wishlist'
+
 exports.e404 = (req, res) ->
   res.status 404
   res.render '404'

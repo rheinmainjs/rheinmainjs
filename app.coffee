@@ -24,9 +24,10 @@ app.configure 'production', () ->
 
 # Routes
 routes.init app
-app.get  '/',                       routes.index
-app.get  '/about',                  routes.about
-app.get  '/history',                routes.history
-app.get  '/*',                      routes.e404
+app.get  '/',         routes.index
+app.get  '/about',    routes.about
+app.get  '/history',  routes.history
+app.get  '/wishlist', routes.wishlist
+app.get  '/*',        routes.e404
 
 app.listen 3333
