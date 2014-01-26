@@ -1,7 +1,7 @@
 "use strict"
 __appdir     = require('path').join(__dirname, '..')
 
-markdown     = require('discount').Markdown
+marked     = require('marked')
 
 exports.init = (app) =>
 
