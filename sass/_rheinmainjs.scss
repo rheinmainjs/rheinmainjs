@@ -6,7 +6,7 @@
 }
 
 body {
-  background: url(/images/bgr.png);
+  background-color: #9CC8F6;
 }
 
 header h1 {
@@ -23,17 +23,16 @@ header h1 a {
   width: 120px;
 }
 
-header h2 {
-  //margin-top: 1.5em;
+footer {
+  padding-top: 10em;
+}
+
+footer .right {
+  font-size: 14px;
 }
 
 .label {
   color: #fdcc00;
-}
-
-footer div {
-  font-size: 14px;
-  text-align: right;
 }
 
 .wiesbaden {
@@ -44,4 +43,8 @@ footer div {
 
 .rheinmain {
   font-weight:700;
+}
+
+.row {
+  background-color: #ffffff;
 }

@@ -2,13 +2,24 @@ extends layout
 
 block content
     .row
-      .eight.columns
+      .large-8.columns
         h3 Bisherige Treffen
-        h5 24. April 2014
+        div.panel
+            h5 05. Juni 2014
             p
             :markdown
                 Das Treffen fand bei [AOE](http://aoe.com/) in Wiesbaden statt, und folgende Vorträge wurden gehalten:
-            ul.disc
+            ul.no-bullet
+                li
+                    .title  <strong>Sencha Ext Js (ExtJS 4</strong>
+                    :markdown
+                        von [Reto Kiefer](http://www.retokiefer.com/)<br/>
+        div.panel
+            h5 24. April 2014
+            p
+            :markdown
+                Das Treffen fand bei [AOE](http://aoe.com/) in Wiesbaden statt, und folgende Vorträge wurden gehalten:
+            ul.no-bullet
                 li
                     .title  <strong>Traceur. Next Generation JavaScript - Now!</strong>
                     :markdown
@@ -19,11 +30,12 @@ block content
                     :markdown
                         von [Marc Dix](https://twitter.com/marcdix)<br/>
                         [[Folien](http://slides.com/marcdix/gulp_v001)]
-        h5 13. Februar 2014
+        div.panel
+            h5 13. Februar 2014
             p
             :markdown
                 Das Treffen fand bei [mediaman](http://mediaman.com/de/agency/) in Mainz statt, und folgende Vorträge wurden gehalten:
-            ul.disc
+            ul.no-bullet
                 li
                     .title  <strong>Game Development mit Spell.js</strong>
                     :markdown
@@ -32,11 +44,12 @@ block content
                     .title <strong>MeteorJS vor dem Einschlag - Ein flexibles JavaScript Framework</strong>
                     :markdown
                         von [Heiko Spindler](https://www.xing.com/profile/Heiko_Spindler/) und [Niko Köbler](http://blog.n-k.de/)
-        h5 04. März 2013
+        div.panel
+            h5 04. März 2013
             p
             :markdown
                 Das Treffen fand statt im Coworking-Space [heimathafen Wiesbaden](http://heimathafen-wiesbaden.de/), und folgende Vorträge wurden gehalten:
-            ul.disc
+            ul.no-bullet
                 li
                     .title  <strong>JavaScript, die missverstandene Sprache&nbsp;&hellip; und wie man damit umgehen kann.</strong>
                     :markdown
@@ -48,11 +61,12 @@ block content
                         von [Sebastian Fastner](http://www.sebastianfastner.de/)<br/>
                         [[Folien](http://sebastianfastner.de/slides/rheinmainlogo-20130304/index.html)]<br/>
                         [[Blogpost](http://sebastianfastner.de/rheinmainlogo.html)]
-        h5 10. Dezember 2012
+        div.panel
+            h5 10. Dezember 2012
             p
             :markdown
                 Das Treffen fand statt bei [Seibert Media](http://www.seibert-media.net/), und folgende Vorträge wurden gehalten:
-            ul.disc
+            ul.no-bullet
                 li
                     .title  <strong>Native App-Entwicklung vs. Alternativen am Beispiel von Appcelerator</strong>
                     :markdown
@@ -63,11 +77,12 @@ block content
                     :markdown
                         von [Christian Bäuerlein](http://fabrik42.github.com/)<br/>
                         [[Folien](https://speakerdeck.com/fabrik42/turn-by-turn-navigation-in-the-browser)]
-        h5 3. September 2012
+        div.panel
+            h5 3. September 2012
             p
             :markdown
                 Das Treffen fand statt bei [Die Firma](http://www.diefirma.de/), und folgende Vorträge wurden gehalten:
-            ul.disc
+            ul.no-bullet
                 li
                     .title  <strong>Javascript Tooling</strong>
                     :markdown
@@ -76,6 +91,6 @@ block content
                     .title <strong>lycheeJS: Cross-Platform JavaScript Game Library</strong>
                     :markdown
                         von [Christoph Martens](http://martens.ms/)
-      .four.columns
+      .large-4.columns
         include includes/twitter
 
